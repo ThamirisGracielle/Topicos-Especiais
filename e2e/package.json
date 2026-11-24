@@ -1,6 +1,11 @@
 {
   "name": "techlab-e2e",
   "private": true,
-  "scripts": { "open": "cypress open --e2e", "test": "cypress run" },
-  "devDependencies": { "cypress": "15.1.0" }
+  "scripts": {
+    "open": "cypress open --e2e",
+    "test": "cypress run --reporter junit --reporter-options mochaFile=reports/cypress-[hash].xml,toConsole=true"
+  },
+  "devDependencies": {
+    "cypress": "15.1.0"
+  }
 }

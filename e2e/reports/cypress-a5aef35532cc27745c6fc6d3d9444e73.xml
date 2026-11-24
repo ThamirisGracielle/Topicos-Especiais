@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.384" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-11-24T22:40:35" tests="0" file="cypress/e2e/oficinas.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Oficinas TechLab" timestamp="2026-11-24T22:40:35" tests="2" time="1.380" failures="0">
+    <testcase name="Oficinas TechLab deve filtrar oficinas pela trilha Qualidade" time="0.434" classname="deve filtrar oficinas pela trilha Qualidade">
+    </testcase>
+    <testcase name="Oficinas TechLab deve confirmar e persistir uma inscrição" time="0.878" classname="deve confirmar e persistir uma inscrição">
+    </testcase>
+  </testsuite>
+</testsuites>
